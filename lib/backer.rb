@@ -13,6 +13,6 @@ def back_project(project)
   project_one = Project.new(project)
   project_one.add_backer(self)
 end
-end
+
 
 end
