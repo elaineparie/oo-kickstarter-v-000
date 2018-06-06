@@ -12,6 +12,7 @@ def back_project(project)
   @backed_projects << project
   project_one = Project.new(project)
   project_one.add_backer(self)
+  binding.pry
 end
 
 
